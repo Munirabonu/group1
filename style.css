@@ -116,6 +116,16 @@ nav {
   color: #000000;
 }
 
+.about-descc {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin-top: 15px;
+}
+
+
 @media (max-width: 375px) {
   .about {
     flex-direction: column;
@@ -150,6 +160,12 @@ nav {
   .about-desc {
     font-size: 16px;
     line-height: 19px;
+  }
+
+  .about-descc {
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 15px;
   }
 }
 
